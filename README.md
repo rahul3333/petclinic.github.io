@@ -1,1 +1,1 @@
-# petclinic.github.io
+# PetClinic

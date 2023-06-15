@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'home')}">
+
+  <body>
+
+    <h2 style="font-size: 30px;margin-left: 47%;" th:text="#{welcome}">Welcome</h2>
+    <div class="row">
+        <div class="col-md-12">
+          <img style="width:35%;vertical-align: middle;margin-left: 35%;" class="img-responsive" src="../static/resources/images/pets.png" th:src="@{/resources/images/pets.png}"/>
+        </div>
+    </div>
+
+  </body>
+
+</html>
